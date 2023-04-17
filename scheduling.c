@@ -118,5 +118,15 @@ int main() {
         recorreCola();
     }
 
+    for(int i = 0; i < 5; i++) {
+        ingresaProceso();
+    }
+    imprimeCola();
+
+    for(int i = 0; i < 10; i++) {
+        recorreCola();
+    }
+
+
     return 0;
 }
